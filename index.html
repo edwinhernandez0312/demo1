@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app-edwin-hernadez-01</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <form>
+    <div class="container" id="app">
+       
+            <div class="form-group">
+              <label >ingrese un número </label>
+              <input type="number" v-model="num1" class="form-control">
+             
+            </div>
+            <div class="form-group">
+              <label >ingrese un número </label>
+              <input type="number" v-model="num2" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Sumar</button>
+            <button type="submit" class="btn btn-danger">Restar</button>
+            <button type="submit" class="btn btn-danger">Multiplicar</button>
+          </form>
+    </div>
+    <script src="js/vue.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
